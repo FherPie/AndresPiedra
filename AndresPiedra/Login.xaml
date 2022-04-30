@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndresPiedra.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="uisrael.png"/>
+            <Label Text="Usuario"  />
+            <Entry x:Name="txtUser" Placeholder="Ingrese su usuario" />
+            <Label Text="Contrasena"  />
+            <Entry x:Name="txtContrasma" Placeholder="Ingrese su contrasena" IsPassword="true"/>
+            <Button x:Name="btnIniciar" Text="Iniciar Sistema" Clicked="btnIniciar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

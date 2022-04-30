@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AndresPiedra.Inicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Desarrollador por Andrés P. "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" Scale="2"/>
+            <Label Text="Noveno B"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" Scale="2"/>
+            <Button x:Name="btnIniciar" Text="Iniciar Sistema" Clicked="btnIniciar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
